@@ -1,0 +1,51 @@
+{
+  "name": "conduct",
+  "version": "4.0.0",
+  "description": "Generate a Code of Conduct for your project - Provided by Contributor Covenant",
+  "license": "MIT",
+  "repository": "sindresorhus/conduct",
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "type": "module",
+  "bin": {
+    "conduct": "./cli.js"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js",
+    "vendor"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "code",
+    "conduct",
+    "code-of-conduct",
+    "contributing",
+    "contributor",
+    "covenant",
+    "friendly",
+    "inclusive",
+    "open",
+    "source",
+    "open-source",
+    "oss",
+    "generate",
+    "scaffold",
+    "create"
+  ],
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "tempy": "^2.0.0",
+    "xo": "^0.45.0"
+  }
+}
